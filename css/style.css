@@ -1,0 +1,86 @@
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff; 
+  }
+  #main-doc {
+    margin: 0 0 0 300px;
+    text-align: left;
+    padding: 20px;
+  }
+  .head {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+  .body {
+    font-size: 1rem;
+    color: #333;
+  }
+  .body p{
+    padding-left: 20px;
+    
+  }
+  .body ul{
+    padding-left: 80px;
+  }
+  .body ul li {
+    padding-bottom: 10px;
+  }
+  .code {
+    margin: 0 20px 0 30px;
+    padding: 5px 0px;
+    font-size: 0.8rem;
+    background-color: #edebeb;
+  }
+  #navbar {
+    text-align: left;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow: auto;
+    margin: 0;
+  }
+  #navbar header {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 20px 40px;
+    border-bottom: 1px solid;
+  }
+  .nav-link-div {
+    margin: 0;
+    width:100%;
+    height: auto;
+    border-bottom: 1px solid;
+    padding: 10px 40px;
+  }
+  .nav-link {
+    font-size: 1rem;
+    color: #333;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 650px){
+    #navbar {
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      background-color: #fff;
+    overflow: auto;
+    margin: 0;
+    }
+    #main-doc {
+      margin: 220px 0 0 0;
+       text-align: left;
+    padding: 20px;
+    }
+  }
